@@ -1,0 +1,27 @@
+{
+  "name": "fis3-deploy-skip-packed-x",
+  "version": "0.0.6",
+  "description": "modified based on fis3-deploy-skip-packed, fix bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiss-scaffold/fis3-deploy-skip-packed-x.git"
+  },
+  "keywords": [
+    "fis3",
+    "fis3-deploy",
+    "fis3-deploy-skip"
+  ],
+  "author": {
+    "name": "fis"
+  },
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/fiss-scaffold/fis3-deploy-skip-packed-x/issues"
+  },
+  "homepage": "https://github.com/fiss-scaffold/fis3-deploy-skip-packed-x"
+ 
+}
