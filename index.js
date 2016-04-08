@@ -55,57 +55,10 @@ module.exports = function(options, modified, total, callback) {
       }
     }
 
-
   }
 
   skipFile(options,modified);
   skipFile(options,total);
-  
-  /*var i = modified.length - 1;
-  var file;
-
-  while ((file = modified[i--])) {
-    if (file.map && (
-        options.skipPackedToPkg && file.map.pkg ||
-        options.skipPackedToAIO && file.map.aioPkg ||
-        options.skipPackedToCssSprite && file.map.cssspritePkg)) {
-
-      //检查如果文件被pack之后，packTo的文件就是该文件，是不能被skip掉的
-      if(typeof file.packTo === 'string' 
-         && file.packTo === file.subpath){
-        continue;
-      }
-
-      // 检查是否 ignore 了
-      if (ignore && isIgnored(file.subpath)) {
-        continue;
-      }
-
-      modified.splice(i + 1, 1);
-    }
-  }
-
-  i = total.length - 1;
-  while ((file = total[i--])) {
-    if (file.map && (
-        options.skipPackedToPkg && file.map.pkg ||
-        options.skipPackedToAIO && file.map.aioPkg ||
-        options.skipPackedToCssSprite && file.map.cssspritePkg)) {
-
-      //检查如果文件被pack之后，packTo的文件就是该文件，是不能被skip掉的
-      if(typeof file.packTo === 'string' 
-         && file.packTo === file.subpath){
-        continue;
-      }
-
-      // 检查是否 ignore 了
-      if (ignore && isIgnored(file.subpath)) {
-        continue;
-      }
-
-      total.splice(i + 1, 1);
-    }
-  }*/
 
   callback();
 };
