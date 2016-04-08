@@ -1,3 +1,8 @@
+#fis3-deploy-skip-packed-x
+	基于fis3-deploy-skip-packed 0.0.5 修改，fix 一个模块文件被packTo的文件名字和本模块名字相同时，skip错误。
+
+以下为fis3-deploy-skip-packed原始文档
+___
 fis3-deploy-skip-packed
 =============================
 
